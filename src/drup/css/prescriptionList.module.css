@@ -1,0 +1,90 @@
+.drupname{
+    background: #fff;
+    padding: 0.08rem 0.15rem 0.1rem 0.15rem
+}
+.drupname div{
+    display: flex;
+}
+.drupname div span{
+    line-height: 0.2rem;
+}
+.drupname div span:first-child{
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+.drupContanner{
+    background: #fff;
+    padding-left: 0.15rem; 
+    
+}
+.drupItem{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 0.13rem 0;
+}
+.drupItem:last-child{
+    border-bottom: none;
+}
+.drupItem>div{
+    flex-grow: 2;
+    -webkit-box-flex-group: 2;
+    line-height: 0.2rem;
+}
+.drupItem>img{
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    height: 0.12rem;
+    width: 0.07rem;
+    margin-right: 0.15rem;
+}
+.drupNum{
+    margin-left: 0.18rem;
+}
+.borderHeight{
+    height: 0.48rem;
+}
+.newFixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background: #fff;
+    padding: 0.06rem 0.15rem;
+    box-sizing: border-box;
+}
+.newFixed div{
+    background: #3081f2;
+    border-radius: 0.08rem;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    text-align: center;
+}
+.newFixed div span{
+    color: #fff;
+}
+.newFixed div img{
+    width: 0.12rem;
+    height: 0.12rem;
+    margin-right: 0.1rem;
+}
+input::placeholder{
+    color: #aaa;
+}
+.drupnameList{
+    display: flex;
+    display: -webkit-flex;
+}
+.drupnameList>span{
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+.drupnameList>div{
+    flex-grow: 2;
+    -webkit-flex-grow: 2;
+}
+.drupnameList>div>span{
+    display: block;
+}

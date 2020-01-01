@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin:0;
+    font-size: 0.14rem;
+    font-family: 'Microsoft Yahei' !important;
+}
+html,body{
+    background: #f8f8f8;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+#root,.App,.App>div{
+    height: 100%;
+}
+.am-calendar .confirm-panel {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}

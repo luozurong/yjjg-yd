@@ -1,0 +1,92 @@
+.containner{
+    padding: 0.14rem 0.15rem 0.14rem; 
+    background: #fff;
+}
+.containner div span{
+    line-height: 0.24rem;
+}
+.pic{
+    display: block;
+    width: 1.8rem;
+    margin: 0.2rem auto 0;
+    padding-bottom: 0.2rem;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.06rem 0;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    background: #fff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.fixed>div {
+    width: 1.65rem;
+    height: 0.36rem;
+    border-radius: 0.06rem;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.fixed>div:first-child {
+    background-color: #f5584a;
+    margin-right: 0.15rem;
+}
+.fixed>div:last-child {
+    background-color: #3081f2;
+}
+.fixed>div img {
+    width: 0.16rem;
+    margin-right: 0.08rem;
+}
+.fixed>div span {
+    color: #fff;
+}
+.drupcontainner{
+    padding-top: 0.12rem;
+    padding-bottom: 0.12rem;
+    border-bottom: 1px solid #eee;
+}
+.drupcontainner:first-child{
+    padding-top: 0;
+}
+.drupcontainner:last-child{
+    border: none;
+    padding-bottom: 0;
+}
+.bottomDiv{
+    height: 0.58rem;
+}
+.filePic{
+    position: relative;
+    width: 2.40rem;
+    height: 1.6rem;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow:  0 0 0.05rem #eee 
+}
+.filePic img{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+}

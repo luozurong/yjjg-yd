@@ -1,0 +1,227 @@
+.prescriptionDetail{ 
+  padding: 0 0.15rem;
+}
+.prescriptionDetailheight{
+  height: 0.15rem;
+}
+.prescriptionDetailshadow{
+  box-shadow: 0 0.03rem 0.05rem 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.prescriptionDetailhead{
+  overflow: hidden;
+  padding: 0.15rem 0.15rem 0 0.15rem;
+  box-sizing: border-box;
+}
+.prescriptionDetailheadlogo{
+  width: 1.72rem;
+  height: 0.23rem;
+  float: left;
+}
+.prescriptionDetailheader{
+  width: 0.82rem;
+  height: 0.33rem;
+  float: right;
+}
+.prescriptionDetailword{
+  font-size: 0.16rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+}
+.prescriptionDetailline{
+  margin: 0.09rem 0.15rem 0;
+  border-bottom: 0.03rem solid #333; 
+}
+.prescriptionDetailheadwrap{
+  position: relative;
+}
+.prescriptionDetailzhang{
+  width: 0.7rem;
+  position: absolute;
+  top: 0.09rem;
+  right: 1.11rem;
+  z-index: 1;
+}
+.prescriptionDetailwrap{
+  padding: 0.05rem 0.15rem 0;
+}
+.prescriptionDetailwrap div span{
+  font-size: 0.10rem;
+  color: #333;
+}
+.line{
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  margin-right: 0.08rem;
+  position: relative;
+}
+.prescriptionDetailline1{  
+  width: 0.65rem;
+}
+.prescriptionDetailline2{
+  width: 1.25rem;
+  margin-right: 0rem;
+}
+.prescriptionDetailline3{
+  width: 0.5rem;
+}
+.prescriptionDetailline4{
+  width: 0.2rem;
+}
+.prescriptionDetailline5{
+  width: 0.24rem;
+}
+.prescriptionDetailline6{
+  width: 0.54rem;
+  margin-right: 0rem;
+}
+.prescriptionDetailline7{
+  width: 0.5rem;
+}
+.prescriptionDetailline8{
+  width: 0.77rem;
+}
+.prescriptionDetailline9{
+  width: 0.6rem;
+  margin-right: 0rem;
+}
+.prescriptionDetailline10{
+  width: 2.63rem;
+  margin-right: 0rem;
+  text-align: left;
+  padding-left: 0.05rem;
+  box-sizing: border-box;
+}
+.prescriptionDetailline11{
+  width: 2.59rem;
+  margin-right: 0rem;
+  text-align: left;
+  padding-left: 0.05rem;
+  box-sizing: border-box;
+}
+.prescriptionDetailline12{
+  width: 0.37rem;
+}
+.prescriptionDetailline13{
+  width: 0.37rem;
+}
+.prescriptionDetailline14{
+  width: 0.37rem;
+}
+.prescriptionDetailline15{
+  width: 1.54rem;
+  text-align: left;
+}
+.prescriptionDetailline16{
+  width: 0.92rem;
+  margin-right: 0
+}
+.prescriptionDetailline17{
+  width: 1.33rem;
+}
+.prescriptionDetailline18{
+  width: 0.93rem;
+  margin-right: 0;
+}
+.prescriptionDetailrp{
+  padding: 0 0.15rem;
+}
+.prescriptionDetailrp img{
+  width: 0.215rem;
+  height: 0.17rem;
+  margin-top: 0.12rem;
+}
+.prescriptionDetaildrup{
+  padding: 0 0.15rem 0 0.3rem;
+  min-height: 1rem;
+}
+.prescriptionDetaildrupitem{
+  margin-bottom: 0.02rem;
+}
+.prescriptionDetaildrupname{
+  display: flex;
+  display: -webkit-flex;
+}
+.prescriptionDetaildrupname span:first-child{
+ flex-grow: 2;
+ -webkit-flex-grow: 2;
+ font-size: 0.12rem;
+ color: #333;
+ font-weight: 600;
+ line-height: 0.21rem;
+}
+.prescriptionDetaildrupname span:last-child{
+ flex-shrink: 0;
+ -webkit-flex-shrink: 0;
+ font-size: 0.1rem;
+ color: #999;
+ line-height: 0.21rem;
+}
+.prescriptionDetaildrupuse{
+  font-size: 0.1rem;
+  color: #999;
+}
+.prescriptionDetailempty{
+  display: flex;
+  display: -webkit-flex;
+  align-items:  center;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+  padding: 0 0.15rem;
+}
+.prescriptionDetailempty i{
+  flex-grow: 2;
+ -webkit-flex-grow: 2;
+ border-bottom: 1px dotted #dedede;
+}
+.prescriptionDetailempty span{
+ flex-shrink: 0;
+ -webkit-flex-shrink: 0;
+ font-size: 0.1rem;
+ color: #999;
+ margin: 0 0.05rem;
+}
+.prescriptionDetailtip{
+  color: #999;
+  font-size: 0.1rem;
+  margin: 0 0.15rem;
+  text-align: justify;
+  padding-bottom: 0.07rem;
+  border-bottom: 0.02rem solid #333;
+}
+.prescriptionDetailcontainer{
+  padding: 0 0.15rem;
+}
+.prescriptionDetailcontaineritem span{
+  font-size: 0.1rem;
+}
+.prescriptionDetailcontaineritem .line1{
+   margin-right: 0rem;
+}
+.prescriptionDetailyuan{
+  margin-right: 0.09rem;
+}
+.prescriptionDetailtiplast{
+  color: #999;
+  font-size: 0.096rem;
+  margin: 0 0.15rem;
+  margin-top: 0.04rem;
+  padding-bottom: 0.13rem;
+}
+.line img{
+  width: 0.42rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  z-index: 1;
+}
+.prescriptionDetailline15 span{
+  text-align: left !important;
+  padding-left: 0.15rem !important;
+  box-sizing: border-box;
+}

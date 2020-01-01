@@ -1,0 +1,32 @@
+.navbar{
+    padding-top: 0.1rem;
+    position: relative;
+}
+.wrap{
+    background: #fff;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    padding: 0 0.15rem;
+    height: 0.36rem;
+    border-bottom: 1px solid #eee;
+}
+.wrap i{
+    width: 0.02rem;
+    height: 0.1rem;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    background: #3081f2;
+    margin-right: 0.06rem;
+}
+.wrap span{
+   font-weight: 600;
+}
+.navbar img{
+    position: absolute;
+    top: 0.17rem;
+    right: 0.15rem;
+    z-index: 1;
+    width: 0.2rem;
+}

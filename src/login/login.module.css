@@ -1,0 +1,50 @@
+.login{
+    height: 100%;
+    background: #fff;
+}
+.logo{
+    width: 2.45rem;
+    height: 0.4rem;
+    display: block;
+    padding-top: 01.2rem;
+    margin: 0 auto 0.4rem;
+}
+.wrap{
+    height: 0.44rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    margin: 0 0.3rem;
+    border-bottom: 1px solid #eee;
+}
+.wrap img{
+    width: 0.15rem;
+    height: 0.15rem;
+}
+.wrap input{
+    width: 3rem;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 0.1rem;
+}
+.submit{
+    margin: 0.4rem 0.3rem 0;
+    line-height: 0.36rem;
+    background: #3081f2;
+    border-radius: 0.08rem;
+    font-size: 0.16rem;
+    text-align: center;
+    color: #fff;
+}
+.outLoginClass{
+    position: fixed;
+    bottom: 0.58rem;
+    right: 0.15rem;
+    z-index: 1;
+}
+.outLoginClass img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
